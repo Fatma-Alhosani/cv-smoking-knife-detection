@@ -1,1 +1,13 @@
-configs/
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['person', 'smoke']
+
+roboflow:
+  workspace: firstproject-cim81
+  project: cigarette-detection-8drbl
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/firstproject-cim81/cigarette-detection-8drbl/dataset/1
