@@ -1,1 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
 
+nc: 1
+names: ['knife']
+
+roboflow:
+  workspace: motos-and-cars
+  project: knife-sd3xq
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/motos-and-cars/knife-sd3xq/dataset/3
